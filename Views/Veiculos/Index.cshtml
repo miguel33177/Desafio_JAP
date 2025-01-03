@@ -10,7 +10,7 @@
             <th>Matrícula</th>
             <th>Ano de Fabrico</th>
             <th>Tipo de Combustível</th>
-            <th>Disponível</th>
+            <th>Estado Veiculo</th>
         </tr>
     </thead>
     <tbody>
@@ -22,11 +22,13 @@
                 <td>@veiculo.Matricula</td>
                 <td>@veiculo.AnoFabrico</td>
                 <td>@veiculo.TipoCombustivel</td>
-                <td>@veiculo.Disponivel</td>
+                <td>@(veiculo.Disponivel ? "Disponível" : "Alugado")</td>
+
                 <td>
                     <form asp-action="Delete" asp-route-id="@veiculo.Id" method="post" style="display:inline">
                         <button type="submit" class="btn btn-danger"
-                            onclick="return confirm('Tem a certeza que deseja apagar este veículo?');">Apagar Veiculo</button>
+                            onclick="return confirm('Tem a certeza que deseja apagar este veículo?');">Apagar
+                            Veiculo</button>
                     </form>
                 </td>
             </tr>

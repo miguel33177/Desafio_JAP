@@ -1,0 +1,43 @@
+@model DesafioJAP.Models.ContratoAluguer
+
+<h1>Criar Contrato de Aluguer</h1>
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="ClienteId" class="control-label"></label>
+        <select asp-for="ClienteId" class="form-control" asp-items="ViewBag.Clientes">
+            <option value="">-- Selecione um Cliente --</option>
+        </select>
+        <span asp-validation-for="ClienteId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="VeiculoId" class="control-label"></label>
+        <select asp-for="VeiculoId" class="form-control" asp-items="ViewBag.Veiculos">
+            <option value="">-- Selecione um Veículo --</option>
+        </select>
+        <span asp-validation-for="VeiculoId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DataInicio" class="control-label"></label>
+        <input asp-for="DataInicio" class="form-control" type="date" />
+        <span asp-validation-for="DataInicio" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DataFim" class="control-label"></label>
+        <input asp-for="DataFim" class="form-control" type="date" />
+        <span asp-validation-for="DataFim" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Km" class="control-label"></label>
+        <input asp-for="Km" class="form-control" value=" "/>
+        <span asp-validation-for="Km" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Guardar</button>
+        <a asp-action="Index" class="btn btn-secondary">Voltar</a>
+    </div>
+</form>

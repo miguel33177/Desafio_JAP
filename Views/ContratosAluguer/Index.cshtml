@@ -1,0 +1,37 @@
+@model IEnumerable<DesafioJAP.Models.ContratoAluguer>
+
+<h1>Contratos de Aluguer</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Cliente</th>
+            <th>Veículo</th>
+            <th>Data Inicio Aluguer</th>
+            <th>Data Fim Aluguer</th>
+            <th>Quilometragem Inicial</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var contrato in Model)
+        {
+            <tr>
+                <td>@contrato.Cliente.Nome</td>
+                <td>@contrato.Veiculo.Modelo</td>
+                <td>@contrato.DataInicio.ToString("dd/MM/yyyy")</td>
+                <td>@contrato.DataFim.ToString("dd/MM/yyyy")</td>
+                <td>@contrato.Km</td>
+                <td>
+                    <form asp-action="Delete" asp-route-id="@contrato.Id" method="post" style="display:inline">
+                        <button type="submit" class="btn btn-danger"
+                            onclick="return confirm('Tem a certeza que deseja finalizar este contrato aluguer?');">Finalizar
+                            aluguer</button>
+                    </form>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create" class="btn btn-primary">Novo Contrato de Aluguer</a>
