@@ -1,0 +1,38 @@
+@model IEnumerable<DesafioJAP.Models.Veiculo>
+
+<h1>Lista de Veículos</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Marca</th>
+            <th>Modelo</th>
+            <th>Matrícula</th>
+            <th>Ano de Fabrico</th>
+            <th>Tipo de Combustível</th>
+            <th>Disponível</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var veiculo in Model)
+        {
+            <tr>
+                <td>@veiculo.Marca</td>
+                <td>@veiculo.Modelo</td>
+                <td>@veiculo.Matricula</td>
+                <td>@veiculo.AnoFabrico</td>
+                <td>@veiculo.TipoCombustivel</td>
+                <td>@veiculo.Disponivel</td>
+                <td>
+                    <form asp-action="Delete" asp-route-id="@veiculo.Id" method="post" style="display:inline">
+                        <button type="submit" class="btn btn-danger"
+                            onclick="return confirm('Tem a certeza que deseja apagar este veículo?');">Apagar</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a class="btn btn-primary" asp-action="Create">Adicionar Veiculo</a>
