@@ -1,0 +1,21 @@
+@model DesafioJAP.Models.Cliente
+
+<h1>Editar Cliente</h1>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" name="Id" value="@Model.Id" />
+    <div class="form-group">
+        <label for="Nome">Nome</label>
+        <input type="text" class="form-control" id="Nome" name="Nome" value="@Model.Nome" required />
+    </div>
+    <div class="form-group">
+        <label for="Email">Email</label>
+        <input type="email" class="form-control" id="Email" name="Email" value="@Model.Email" required />
+    </div>
+    <div class="form-group">
+        <label for="Telefone">Telefone</label>
+        <input type="text" class="form-control" id="Telefone" name="Telefone" value="@Model.Telefone" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+</form>

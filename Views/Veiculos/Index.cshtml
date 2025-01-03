@@ -11,7 +11,6 @@
             <th>Ano de Fabrico</th>
             <th>Tipo de Combustível</th>
             <th>Disponível</th>
-            <th>Ações</th>
         </tr>
     </thead>
     <tbody>
@@ -27,7 +26,7 @@
                 <td>
                     <form asp-action="Delete" asp-route-id="@veiculo.Id" method="post" style="display:inline">
                         <button type="submit" class="btn btn-danger"
-                            onclick="return confirm('Tem a certeza que deseja apagar este veículo?');">Apagar</button>
+                            onclick="return confirm('Tem a certeza que deseja apagar este veículo?');">Apagar Veiculo</button>
                     </form>
                 </td>
             </tr>
