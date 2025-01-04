@@ -10,6 +10,7 @@
             <th>Data Inicio Aluguer</th>
             <th>Data Fim Aluguer</th>
             <th>Quilometragem Inicial</th>
+            <th>Dias restantes</th>
         </tr>
     </thead>
     <tbody>
@@ -22,6 +23,19 @@
                 <td>@contrato.DataFim.ToString("dd/MM/yyyy")</td>
                 <td>@contrato.Km</td>
                 <td>
+                    @{
+                        int diasRestantes = (contrato.DataFim - DateTime.Now).Days;
+                    }
+                    @if (diasRestantes > 0)
+                    {
+                         <span>@diasRestantes dias</span>
+                    }
+                    else
+                    {
+                        <span class="text-danger">Contrato Expirado</span>
+                    }
+                </td>
+                 <td>
                     <form asp-action="Delete" asp-route-id="@contrato.Id" method="post" style="display:inline">
                         <button type="submit" class="btn btn-danger"
                             onclick="return confirm('Tem a certeza que deseja finalizar este contrato aluguer?');">Finalizar

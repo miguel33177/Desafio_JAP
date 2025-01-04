@@ -1,27 +1,38 @@
 @model DesafioJAP.Models.Veiculo
 
-<h1>Adicionar Veiculo</h1>
+<h1>Adicionar veículo</h1>
 
 <form asp-action="Create" method="post">
     <div class="form-group">
-        <label for="Marca">Marca</label>
-        <input type="text" class="form-control" id="Marca" name="Marca" value="@Model.Marca" required />
+        <label asp-for="Marca"></label>
+        <input asp-for="Marca" class="form-control" />
+        <span asp-validation-for="Marca" class="text-danger"></span>
     </div>
+
     <div class="form-group">
-        <label for="Modelo">Modelo</label>
-        <input type="text" class="form-control" id="Modelo" name="Modelo" value="@Model.Modelo" required />
+        <label asp-for="Modelo"></label>
+        <input asp-for="Modelo" class="form-control" />
+        <span asp-validation-for="Modelo" class="text-danger"></span>
     </div>
+
     <div class="form-group">
-        <label for="Matricula">Matricula</label>
-        <input type="text" class="form-control" id="Matricula" name="Matricula" value="@Model.Matricula" required />
+        <label asp-for="Matricula"></label>
+        <input asp-for="Matricula" class="form-control" />
+        <span asp-validation-for="Matricula" class="text-danger"></span>
     </div>
+
     <div class="form-group">
-        <label for="Morada">AnoFabrico</label>
-        <input type="text" class="form-control" id="AnoFabrico" name="AnoFabrico" value="@Model.AnoFabrico" />
+        <label asp-for="AnoFabrico"></label>
+        <input asp-for="AnoFabrico" type="number" class="form-control" />
+        <span asp-validation-for="AnoFabrico" class="text-danger"></span>
     </div>
-      <div class="form-group">
-        <label for="Morada">TipoCombustivel</label>
-        <input type="text" class="form-control" id="TipoCombustivel" name="TipoCombustivel" value="@Model.TipoCombustivel" />
+
+    <div class="form-group">
+        <label asp-for="TipoCombustivel"></label>
+        <input asp-for="TipoCombustivel" class="form-control" />
+        <span asp-validation-for="TipoCombustivel" class="text-danger"></span>
     </div>
+
     <button type="submit" class="btn btn-primary">Guardar</button>
+    <a asp-action="Index" class="btn btn-secondary">Voltar</a>
 </form>
