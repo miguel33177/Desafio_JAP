@@ -4,8 +4,9 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Desafio_JAP</title>
+    <title>@ViewData["Title"]Desafio_JAP</title>
     <script type="importmap"></script>
+    <link rel="icon" type="image/x-icon" href="~/favicon.ico" />
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Desafio_JAP.styles.css" asp-append-version="true" />
@@ -13,29 +14,46 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container d-flex justify-content-center">
-                <a class="navbar-brand" href="/">
-                    <img src="/images/logo.png" alt="JAP" class="navbar-logo">
-                </a>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/Veiculos">Veículos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/Clientes">Clientes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/ContratosAluguer">Contratos Aluguer</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+                <img src="/images/logo.png" alt="JAP Logo" style="height: 40px;">
+            </a>
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="veiculosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Veículos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="veiculosDropdown">
+                        <li><a class="dropdown-item" href="/Veiculos">Listagem Veículos</a></li>
+                        <li><a class="dropdown-item" href="/Veiculos/Create">Adicionar Novo Veículo</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="clientesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Clientes
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="clientesDropdown">
+                        <li><a class="dropdown-item" href="/Clientes">Listagem Clientes</a></li>
+                        <li><a class="dropdown-item" href="/Clientes/Create">Adicionar Novo Cliente</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="contratosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Contratos Aluguer
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="contratosDropdown">
+                        <li><a class="dropdown-item" href="/ContratosAluguer">Listagem Contratos</a></li>
+                        <li><a class="dropdown-item" href="/ContratosAluguer/Create">Criar Novo Contrato de Aluguer</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
 
-    </header>
+
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()

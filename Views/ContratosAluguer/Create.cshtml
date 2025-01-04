@@ -1,9 +1,9 @@
 @model DesafioJAP.Models.ContratoAluguer
 
-<h1>Criar Contrato de Aluguer</h1>
+<h1 style="margin-bottom: 40px;">Criar Contrato de Aluguer</h1>
 <form asp-action="Create" method="post">
     <div class="form-group">
-        <label asp-for="ClienteId" class="control-label"></label>
+        <label asp-for="ClienteId" class="control-label">Cliente</label>
         <select asp-for="ClienteId" class="form-control" asp-items="ViewBag.Clientes">
             <option value="">-- Selecione um Cliente --</option>
         </select>
@@ -11,7 +11,7 @@
     </div>
 
     <div class="form-group">
-        <label asp-for="VeiculoId" class="control-label"></label>
+        <label asp-for="VeiculoId" class="control-label">Veiculo</label>
         <select asp-for="VeiculoId" class="form-control" asp-items="ViewBag.Veiculos">
             <option value="">-- Selecione um Veículo --</option>
         </select>
@@ -19,19 +19,19 @@
     </div>
 
     <div class="form-group">
-        <label asp-for="DataInicio" class="control-label"></label>
+        <label asp-for="DataInicio" class="control-label">Data de Início do Aluguer</label>
         <input asp-for="DataInicio" class="form-control" type="date" />
         <span asp-validation-for="DataInicio" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label asp-for="DataFim" class="control-label"></label>
+        <label asp-for="DataFim" class="control-label">Data de Fim do Aluguer:</label>
         <input asp-for="DataFim" class="form-control" type="date" />
         <span asp-validation-for="DataFim" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label asp-for="Km" class="control-label"></label>
+        <label asp-for="Km" class="control-label">Quilometragem Inicial</label>
         <input asp-for="Km" class="form-control" value=" "/>
         <span asp-validation-for="Km" class="text-danger"></span>
     </div>
