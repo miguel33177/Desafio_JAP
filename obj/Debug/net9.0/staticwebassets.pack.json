@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/brunomiguel/Documents/Desafio_JAP/wwwroot/images/logo.png",
+      "PackagePath": "staticwebassets/images/logo.png"
+    },
+    {
       "Id": "/Users/brunomiguel/Documents/Desafio_JAP/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
