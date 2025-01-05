@@ -3,14 +3,14 @@
     <StaticWebAssetEndpoint Include="_content/Desafio_JAP/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pC3QDSn293T8ObfeTeUo6doruoOtMje73kPJgH8P4EE="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"842"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022pC3QDSn293T8ObfeTeUo6doruoOtMje73kPJgH8P4EE=\u0022"},{"Name":"Last-Modified","Value":"Sat, 04 Jan 2025 01:56:34 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002Bw69cyx49goZi7B\u002BXYl78VxGOycWu\u002BHi7JvfIQQGAdQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"843"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022\u002Bw69cyx49goZi7B\u002BXYl78VxGOycWu\u002BHi7JvfIQQGAdQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 04 Jan 2025 01:57:47 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Desafio_JAP/css/site.sc9g72try9.css">
+    <StaticWebAssetEndpoint Include="_content/Desafio_JAP/css/site.rg6x4nryvs.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"sc9g72try9"},{"Name":"integrity","Value":"sha256-pC3QDSn293T8ObfeTeUo6doruoOtMje73kPJgH8P4EE="},{"Name":"label","Value":"_content/Desafio_JAP/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"842"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022pC3QDSn293T8ObfeTeUo6doruoOtMje73kPJgH8P4EE=\u0022"},{"Name":"Last-Modified","Value":"Sat, 04 Jan 2025 01:56:34 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rg6x4nryvs"},{"Name":"integrity","Value":"sha256-\u002Bw69cyx49goZi7B\u002BXYl78VxGOycWu\u002BHi7JvfIQQGAdQ="},{"Name":"label","Value":"_content/Desafio_JAP/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"843"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022\u002Bw69cyx49goZi7B\u002BXYl78VxGOycWu\u002BHi7JvfIQQGAdQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 04 Jan 2025 01:57:47 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Desafio_JAP/Desafio_JAP.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Desafio_JAP.ub4xkphsy7.bundle.scp.css'))</AssetFile>

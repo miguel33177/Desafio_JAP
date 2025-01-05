@@ -1,8 +1,8 @@
 @model IEnumerable<DesafioJAP.Models.Veiculo>
 
-<h1 style="margin-bottom: 40px;" >Lista de Veículos</h1>
+<h1 class="mt-4" style="margin-bottom: 40px;" >Lista de Veículos</h1>
 
-<table class="table table-striped">
+<table class="table table-striped table-hover mt-4">
     <thead>
         <tr>
             <th>Marca</th>
@@ -22,11 +22,18 @@
                 <td>@veiculo.Matricula</td>
                 <td>@veiculo.AnoFabrico</td>
                 <td>@veiculo.TipoCombustivel</td>
-                <td>@(veiculo.Disponivel ? "Disponível" : "Alugado")</td>
+                <td>@if (veiculo.Disponivel)
+                    {
+                        <span class="badge bg-success">Disponível</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-danger">Alugado</span>
+                    }</td>
 
                 <td>
                     <form asp-action="Delete" asp-route-id="@veiculo.Id" method="post" style="display:inline">
-                        <button type="submit" class="btn btn-danger"
+                        <button type="submit" class="btn btn-danger btn-sm"
                             onclick="return confirm('Tem a certeza que deseja apagar este veículo?');">Apagar
                             Veiculo</button>
                     </form>
@@ -36,4 +43,4 @@
     </tbody>
 </table>
 
-<a class="btn btn-primary" asp-action="Create">Adicionar Veiculo</a>
+<a class="btn btn-danger mt-3" asp-action="Create">Adicionar Novo Veiculo</a>

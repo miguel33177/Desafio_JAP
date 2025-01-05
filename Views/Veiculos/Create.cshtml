@@ -1,38 +1,38 @@
 @model DesafioJAP.Models.Veiculo
 
-<h1 style="margin-bottom: 40px;" >Adicionar veículo</h1>
+<h1 class="mt-4" style="margin-bottom: 40px;" >Adicionar veículo</h1>
 
-<form asp-action="Create" method="post">
+<form asp-action="Create" method="post" class="mt-4">
     <div class="form-group">
-        <label asp-for="Marca"></label>
+        <label asp-for="Marca">Marca</label>
         <input asp-for="Marca" class="form-control" />
         <span asp-validation-for="Marca" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label asp-for="Modelo"></label>
+        <label asp-for="Modelo">Modelo</label>
         <input asp-for="Modelo" class="form-control" />
         <span asp-validation-for="Modelo" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label asp-for="Matricula"></label>
+        <label asp-for="Matricula">Matricula</label>
         <input asp-for="Matricula" class="form-control" />
         <span asp-validation-for="Matricula" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label asp-for="AnoFabrico"></label>
-        <input asp-for="AnoFabrico" type="number" class="form-control" />
+        <label asp-for="AnoFabrico">Ano Fabrico</label>
+        <input asp-for="AnoFabrico" type="number" class="form-control" value=" " />
         <span asp-validation-for="AnoFabrico" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label asp-for="TipoCombustivel"></label>
+        <label asp-for="TipoCombustivel">Tipo Combustivel</label>
         <input asp-for="TipoCombustivel" class="form-control" />
         <span asp-validation-for="TipoCombustivel" class="text-danger"></span>
     </div>
 
-    <button type="submit" class="btn btn-primary">Guardar</button>
-    <a asp-action="Index" class="btn btn-secondary">Voltar</a>
+    <button type="submit" class="btn btn-danger mt-3">Guardar</button>
+    <a asp-action="Index" class="btn btn-secondary mt-3">Voltar</a>
 </form>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rAHLL2DMHONI6cojOxNXB6fHfv1qkAy5tgkbPTfirhk=",
+  "Hash": "+ueYXhAgl940I1SUOkgtlNSsp7GlI5Yae0TwsjuQhrE=",
   "Source": "Desafio_JAP",
   "BasePath": "_content/Desafio_JAP",
   "Mode": "Default",
@@ -920,12 +920,12 @@
       "OriginalItemSpec": "/Users/brunomiguel/Documents/Desafio_JAP/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Identity": "/Users/brunomiguel/Documents/Desafio_JAP/obj/Debug/net9.0/compressed/kxvh0o0hc1-sc9g72try9.gz",
+      "Identity": "/Users/brunomiguel/Documents/Desafio_JAP/obj/Debug/net9.0/compressed/kxvh0o0hc1-rg6x4nryvs.gz",
       "SourceId": "Desafio_JAP",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/brunomiguel/Documents/Desafio_JAP/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/Desafio_JAP",
-      "RelativePath": "css/site#[.{fingerprint=sc9g72try9}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=rg6x4nryvs}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -934,8 +934,8 @@
       "RelatedAsset": "/Users/brunomiguel/Documents/Desafio_JAP/wwwroot/css/site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "3ajs8wvkh3",
-      "Integrity": "ZTft6VqM7p3QPgDXdGevDiuvn+9W81KNZSI9wsnvYl4=",
+      "Fingerprint": "qtflmbnzmu",
+      "Integrity": "XlXjUcKWWX4Mb8exHCK3IyqpRc6YMINTo6gYgzAMMO4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/brunomiguel/Documents/Desafio_JAP/wwwroot/css/site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "sc9g72try9",
-      "Integrity": "pC3QDSn293T8ObfeTeUo6doruoOtMje73kPJgH8P4EE=",
+      "Fingerprint": "rg6x4nryvs",
+      "Integrity": "+w69cyx49goZi7B+XYl78VxGOycWu+Hi7JvfIQQGAdQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
@@ -2750,12 +2750,12 @@
   "Endpoints": [
     {
       "Route": "css/site.css",
-      "AssetFile": "/Users/brunomiguel/Documents/Desafio_JAP/obj/Debug/net9.0/compressed/kxvh0o0hc1-sc9g72try9.gz",
+      "AssetFile": "/Users/brunomiguel/Documents/Desafio_JAP/obj/Debug/net9.0/compressed/kxvh0o0hc1-rg6x4nryvs.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002770083102"
+          "Quality": "0.002808988764"
         }
       ],
       "ResponseHeaders": [
@@ -2765,15 +2765,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "360"
+          "Value": "355"
         },
         {
           "Name": "ETag",
-          "Value": "\"ZTft6VqM7p3QPgDXdGevDiuvn+9W81KNZSI9wsnvYl4=\""
+          "Value": "\"XlXjUcKWWX4Mb8exHCK3IyqpRc6YMINTo6gYgzAMMO4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 01:56:34 GMT"
+          "Value": "Sat, 04 Jan 2025 01:57:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2793,13 +2793,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"pC3QDSn293T8ObfeTeUo6doruoOtMje73kPJgH8P4EE=\""
+          "Value": "W/\"+w69cyx49goZi7B+XYl78VxGOycWu+Hi7JvfIQQGAdQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pC3QDSn293T8ObfeTeUo6doruoOtMje73kPJgH8P4EE="
+          "Value": "sha256-+w69cyx49goZi7B+XYl78VxGOycWu+Hi7JvfIQQGAdQ="
         }
       ]
     },
@@ -2814,7 +2814,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "842"
+          "Value": "843"
         },
         {
           "Name": "Content-Type",
@@ -2822,11 +2822,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pC3QDSn293T8ObfeTeUo6doruoOtMje73kPJgH8P4EE=\""
+          "Value": "\"+w69cyx49goZi7B+XYl78VxGOycWu+Hi7JvfIQQGAdQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 01:56:34 GMT"
+          "Value": "Sat, 04 Jan 2025 01:57:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2836,13 +2836,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pC3QDSn293T8ObfeTeUo6doruoOtMje73kPJgH8P4EE="
+          "Value": "sha256-+w69cyx49goZi7B+XYl78VxGOycWu+Hi7JvfIQQGAdQ="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "/Users/brunomiguel/Documents/Desafio_JAP/obj/Debug/net9.0/compressed/kxvh0o0hc1-sc9g72try9.gz",
+      "AssetFile": "/Users/brunomiguel/Documents/Desafio_JAP/obj/Debug/net9.0/compressed/kxvh0o0hc1-rg6x4nryvs.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2851,7 +2851,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "360"
+          "Value": "355"
         },
         {
           "Name": "Content-Type",
@@ -2859,11 +2859,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZTft6VqM7p3QPgDXdGevDiuvn+9W81KNZSI9wsnvYl4=\""
+          "Value": "\"XlXjUcKWWX4Mb8exHCK3IyqpRc6YMINTo6gYgzAMMO4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 01:56:34 GMT"
+          "Value": "Sat, 04 Jan 2025 01:57:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2881,18 +2881,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ZTft6VqM7p3QPgDXdGevDiuvn+9W81KNZSI9wsnvYl4="
+          "Value": "sha256-XlXjUcKWWX4Mb8exHCK3IyqpRc6YMINTo6gYgzAMMO4="
         }
       ]
     },
     {
-      "Route": "css/site.sc9g72try9.css",
-      "AssetFile": "/Users/brunomiguel/Documents/Desafio_JAP/obj/Debug/net9.0/compressed/kxvh0o0hc1-sc9g72try9.gz",
+      "Route": "css/site.rg6x4nryvs.css",
+      "AssetFile": "/Users/brunomiguel/Documents/Desafio_JAP/obj/Debug/net9.0/compressed/kxvh0o0hc1-rg6x4nryvs.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002770083102"
+          "Quality": "0.002808988764"
         }
       ],
       "ResponseHeaders": [
@@ -2902,15 +2902,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "360"
+          "Value": "355"
         },
         {
           "Name": "ETag",
-          "Value": "\"ZTft6VqM7p3QPgDXdGevDiuvn+9W81KNZSI9wsnvYl4=\""
+          "Value": "\"XlXjUcKWWX4Mb8exHCK3IyqpRc6YMINTo6gYgzAMMO4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 01:56:34 GMT"
+          "Value": "Sat, 04 Jan 2025 01:57:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2930,13 +2930,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"pC3QDSn293T8ObfeTeUo6doruoOtMje73kPJgH8P4EE=\""
+          "Value": "W/\"+w69cyx49goZi7B+XYl78VxGOycWu+Hi7JvfIQQGAdQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "sc9g72try9"
+          "Value": "rg6x4nryvs"
         },
         {
           "Name": "label",
@@ -2944,12 +2944,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pC3QDSn293T8ObfeTeUo6doruoOtMje73kPJgH8P4EE="
+          "Value": "sha256-+w69cyx49goZi7B+XYl78VxGOycWu+Hi7JvfIQQGAdQ="
         }
       ]
     },
     {
-      "Route": "css/site.sc9g72try9.css",
+      "Route": "css/site.rg6x4nryvs.css",
       "AssetFile": "/Users/brunomiguel/Documents/Desafio_JAP/wwwroot/css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2959,7 +2959,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "842"
+          "Value": "843"
         },
         {
           "Name": "Content-Type",
@@ -2967,11 +2967,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pC3QDSn293T8ObfeTeUo6doruoOtMje73kPJgH8P4EE=\""
+          "Value": "\"+w69cyx49goZi7B+XYl78VxGOycWu+Hi7JvfIQQGAdQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 01:56:34 GMT"
+          "Value": "Sat, 04 Jan 2025 01:57:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2981,7 +2981,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "sc9g72try9"
+          "Value": "rg6x4nryvs"
         },
         {
           "Name": "label",
@@ -2989,13 +2989,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pC3QDSn293T8ObfeTeUo6doruoOtMje73kPJgH8P4EE="
+          "Value": "sha256-+w69cyx49goZi7B+XYl78VxGOycWu+Hi7JvfIQQGAdQ="
         }
       ]
     },
     {
-      "Route": "css/site.sc9g72try9.css.gz",
-      "AssetFile": "/Users/brunomiguel/Documents/Desafio_JAP/obj/Debug/net9.0/compressed/kxvh0o0hc1-sc9g72try9.gz",
+      "Route": "css/site.rg6x4nryvs.css.gz",
+      "AssetFile": "/Users/brunomiguel/Documents/Desafio_JAP/obj/Debug/net9.0/compressed/kxvh0o0hc1-rg6x4nryvs.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3004,7 +3004,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "360"
+          "Value": "355"
         },
         {
           "Name": "Content-Type",
@@ -3012,11 +3012,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZTft6VqM7p3QPgDXdGevDiuvn+9W81KNZSI9wsnvYl4=\""
+          "Value": "\"XlXjUcKWWX4Mb8exHCK3IyqpRc6YMINTo6gYgzAMMO4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 01:56:34 GMT"
+          "Value": "Sat, 04 Jan 2025 01:57:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3034,7 +3034,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "sc9g72try9"
+          "Value": "rg6x4nryvs"
         },
         {
           "Name": "label",
@@ -3042,7 +3042,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ZTft6VqM7p3QPgDXdGevDiuvn+9W81KNZSI9wsnvYl4="
+          "Value": "sha256-XlXjUcKWWX4Mb8exHCK3IyqpRc6YMINTo6gYgzAMMO4="
         }
       ]
     },

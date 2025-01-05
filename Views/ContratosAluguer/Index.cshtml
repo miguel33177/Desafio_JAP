@@ -1,8 +1,8 @@
 @model IEnumerable<DesafioJAP.Models.ContratoAluguer>
 
-<h1 style="margin-bottom: 40px;">Contratos de Aluguer</h1>
+<h1 class="mt-4" style="margin-bottom: 40px;">Contratos de Aluguer</h1>
 
-<table class="table">
+<table class="table table-striped table-hover mt-4">
     <thead>
         <tr>
             <th>Cliente</th>
@@ -37,7 +37,7 @@
                 </td>
                  <td>
                     <form asp-action="Delete" asp-route-id="@contrato.Id" method="post" style="display:inline">
-                        <button type="submit" class="btn btn-danger"
+                        <button type="submit" class="btn btn-danger btn-sm"
                             onclick="return confirm('Tem a certeza que deseja finalizar este contrato aluguer?');">Finalizar
                             aluguer</button>
                     </form>
@@ -48,4 +48,4 @@
     </tbody>
 </table>
 
-<a asp-action="Create" class="btn btn-primary">Novo Contrato de Aluguer</a>
+<a asp-action="Create" class="btn btn-danger">Novo Contrato de Aluguer</a>
